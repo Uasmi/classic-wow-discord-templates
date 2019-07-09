@@ -8,6 +8,6 @@ Oops, you're on cooldown.
   {{sendMessage nil $msg}}
   {{sendMessage nil ":sparkles:"}}
   {{giveRoleName $usertag "Bubble"}}
-  {{takeRoleName $usertag "Bubble" (100)}}
+  {{takeRoleName $usertag "Bubble" (150)}}
   {{dbSetExpire .User.ID ("usedCC") ("True") (100)}}
 {{end}}
