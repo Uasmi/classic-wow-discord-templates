@@ -11,8 +11,8 @@ Oops, you're on cooldown.
   {{takeRoleName $usertag "Sheep" (30)}}
   {{dbSetExpire .User.ID ("usedCC") ("True") (100)}}
   {{if targetHasRoleName $usertag "Bubble"}}
-    {{$msg:= joinStr "" $usertage.Username " is guarded by the Holy Spirit :sparkles:!"}}
-    {{sendMessage nil msg}}
+    {{$msg:= joinStr "" $usertag.Username " is guarded by the Holy Spirit :sparkles:!"}}
+    {{sendMessage nil $msg}}
   {{else}}
     {{if targetHasRoleName $usertag "Mage"}}
       {{takeRoleName $usertag "Mage"}}
