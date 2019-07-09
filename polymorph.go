@@ -34,7 +34,7 @@ Oops, you're on cooldown.
   {{else if targetHasRoleName $usertag "Priest"}}
     {{takeRoleName $usertag "Priest"}}
     {{sleep 30}}
-    {{giveRoleName $usertag "Priset"}}
+    {{giveRoleName $usertag "Priest"}}
   {{else if targetHasRoleName $usertag "Paladin"}}
     {{takeRoleName $usertag "Paladin"}}
     {{sleep 30}}
