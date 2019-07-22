@@ -8,6 +8,7 @@ Oops, you're on cooldown.
     {{$msg:= joinStr "" $usertag.Username " is guarded by the Holy Spirit :sparkles:!"}}
     {{sendMessage nil $msg}}
   {{else}}
+    {{exec "sb" "sheep"}}
     {{$msg:= joinStr "" "You were polymorphed " $usertag.Username "!"}} 
     {{sendMessage nil $msg}}
     {{sendMessage nil ":sheep:Baaah:sheep: "}}
