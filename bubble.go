@@ -4,10 +4,11 @@
 {{if in $record.Value "True"}}
 Oops, you're on cooldown. 
 {{else}}
+ {{exec "sb" "bubble2"}}
 {{$msg:= joinStr "" "Holy spirit guards you, " $usertag.Username "!"}} 
   {{sendMessage nil $msg}}
   {{sendMessage nil ":sparkles:"}}
   {{giveRoleName $usertag "Bubble"}}
   {{takeRoleName $usertag "Bubble" (150)}}
-  {{dbSetExpire .User.ID ("usedCC") ("True") (100)}}
+  {{dbSetExpire .User.ID ("usedCC") ("True") (10)}}
 {{end}}
