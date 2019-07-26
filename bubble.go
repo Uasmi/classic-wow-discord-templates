@@ -3,6 +3,8 @@
 
 {{if in $record.Value "True"}}
 Oops, you're on cooldown. 
+ {{else if targetHasRoleName $usertag "Banished"}}
+    {{sendMessage nil "He's at the other realm... :smiling_imp:"}}
 {{else}}
  {{exec "sb" "bubble2"}}
 {{$msg:= joinStr "" "Holy spirit guards you, " $usertag.Username "!"}} 
