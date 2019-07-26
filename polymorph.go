@@ -9,6 +9,8 @@ Oops, you're on cooldown.
   {{if targetHasRoleName $usertag "Bubble"}}
     {{$msg:= joinStr "" $usertag.Username " is guarded by the Holy Spirit :sparkles:!"}}
     {{sendMessage nil $msg}}
+  {{else if targetHasRoleName $usertag "Stealth"}}
+    {{sendMessage nil "Hmmm, did you really see someone?"}}
   {{else}}
     {{$cmd:=(exec "sb" "sheep")}}
     {{/* $cmd */}}
