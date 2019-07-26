@@ -11,6 +11,8 @@ Oops, you're on cooldown.
     {{sendMessage nil $msg}}
   {{else if targetHasRoleName $usertag "Stealth"}}
     {{sendMessage nil "Hmmm, did you really see someone?"}}
+  {{else if targetHasRoleName $usertag "Banished"}}
+    {{sendMessage nil "He's at the other realm... :smiling_imp:"}}
   {{else}}
     {{$cmd:=(exec "sb" "sheep")}}
     {{/* $cmd */}}
@@ -18,8 +20,8 @@ Oops, you're on cooldown.
     {{sendMessage nil $msg}}
     {{sendMessage nil ":sheep:Baaah:sheep: "}}
     {{giveRoleName $usertag "Sheep"}}
-    {{takeRoleName $usertag "Sheep" (30)}}
+    {{takeRoleName $usertag "Sheep" (15)}}
     {{dbSetExpire .User.ID ("usedCC") ("True") (10)}}
-    {{execCC 8 nil 0 (sdict "ID" $usertag.ID "Time" 30)}}
+    {{execCC 8 nil 0 (sdict "ID" $usertag.ID "Time" 15)}}
   {{end}}
 {{end}}
