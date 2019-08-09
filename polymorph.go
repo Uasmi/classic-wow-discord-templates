@@ -15,7 +15,7 @@ Oops, you're on cooldown.
   {{else if targetHasRoleName $usertag "Banished"}}
     {{sendMessage nil "He's at the other realm... :smiling_imp:"}}
   {{else if and (targetHasRoleName $usertag "Shaman") (not (in $shamanCC.Value "True"))}}
-    {{sendMessage nil "Used Reincornation!"}}
+    {{sendMessage nil "Used Reincarnation!"}}
     {{dbSetExpire $usertag.ID ("usedCC") ("True") (30)}}    
     {{dbSetExpire .User.ID ("usedCC") ("True") (10)}}
   {{else}}
