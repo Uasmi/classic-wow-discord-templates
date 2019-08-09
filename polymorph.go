@@ -2,6 +2,7 @@
   (carg "user" "usr")}}
 {{$usertag:=$args.Get 0}}
 {{$record:= dbGet (.User.ID) ("usedCC")}}
+{{$shamanCC:= dbGet ($usertag.ID) ("usedCC")}}
 
 {{if in $record.Value "True"}}
 Oops, you're on cooldown. 
@@ -13,6 +14,11 @@ Oops, you're on cooldown.
     {{sendMessage nil "Hmmm, did you really see someone?"}}
   {{else if targetHasRoleName $usertag "Banished"}}
     {{sendMessage nil "He's at the other realm... :smiling_imp:"}}
+  {{else if and (targetHasRoleName $usertag "Shaman") (not (in $shamanCC.Value "True"))}}
+    {{sendMessage nil "Test"}}
+    {{sendMessage nil $shamanCC}}
+    {{sendMessage nil $usertag.ID}}
+    {{dbSetExpire $usertag.ID ("usedCC") ("True") (30)}}    
   {{else}}
     {{$cmd:=(exec "sb" "sheep")}}
     {{/* $cmd */}}
