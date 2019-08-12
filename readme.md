@@ -24,7 +24,7 @@ Bonus: Rotten Ghoul
 Shaman is able to Reincarnate after control spells was used on him. This will trigger the cooldown of the caster, but will not affect the Shaman himself (works on Polymorph, Freezing Trap, Banish)
 #### Stealth
 *-stealth* to dissapear and *-unstealth* to appear again! 
-###### P.s. those filty casters can't get you but be careful of freezing traps!
+###### P.S. Those filthy casters can't get you but be careful of freezing traps!
 #### Dispel
 The most selfless people recieve ability to remove control spells. Feel free to help your friend, and use *-dispel @nickname* to remove control spells.
 ###### Don't tell me you're a shadow priest, we all know this doesn't work.
