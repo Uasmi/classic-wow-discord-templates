@@ -59,7 +59,9 @@ You can get hex code colours for classes here: https://wow.gamepedia.com/Class_c
 Set *Sheep, Frozen and Banished* roles to read-only in settings of the role
 Set *Stealth* role color to ```#2C2F33``` so it will look like this: <img src="https://githubpics.blob.core.windows.net/wowdiscord/stealth.jpg" width="100" height="25" />
 
-#### 4. Setup a separate channel where you can let people choose a Class
+#### 4. Setup a separate channel where you can let people choose a Class (self-assignable roles):
+Follow this cool youtube video to do that:
+https://www.youtube.com/watch?v=84nndebMEGo
 ## Setting up:
 Now you'll have to add commands to your server.
 Make sure you selected your server at Yagpdb portal (you can see it on top right corner)
