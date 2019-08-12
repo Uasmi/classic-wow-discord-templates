@@ -14,7 +14,7 @@ Adding this commands to your Discord server will add class specific features! Ea
 8. ![](https://vignette.wikia.nocookie.net/wowwiki/images/6/6b/Druid_Icon.gif/revision/latest?cb=20070911025603)Druid - Teldrassil
 9. ![](https://vignette.wikia.nocookie.net/wowwiki/images/b/bc/Warrior_Icon.gif/revision/latest?cb=20070911030206)Warrior - Taunt
 
-Bonus: Rotten Ghoul
+###### Bonus: Rotten Ghoul - if someone is acting bad, promote him to Rotten Ghoul and send him to Eastern Plaguelends
 
 ## Abilities explained
 ###### Disclaimer: though we really wanted to create lot's of cool abilities, there are some limitations in Discord that we can't surpass (or possibly don't know how). If you have a suggestion just create and Issue on this GitHub and we'll take a look if it's possible
@@ -82,8 +82,30 @@ Repeat the procces for (keep the command triggers same as file names):
 7. stealth - Rogue
 8. trap - Hunter
 9. unstealth - Rogue
+10. taunt - Warrior
 
-The only important file is a trapRegexTracker, which is using Regex. You need to change the trigger to regex, and set command to .*: 
+The only important file is a trapRegexTracker, which is using Regex. You need to change the **Trigger Type** to regex, and set **Trigger** to .*: 
+![](https://githubpics.blob.core.windows.net/wowdiscord/regex.jpg)
 
+Create a separate text channel for druids called Teldrassil:
+![](https://githubpics.blob.core.windows.net/wowdiscord/teldrassil.jpg)
 
+## Adding sounds
+Sounds are also included, you can get them at sounds folder. Download them and then Upload to Yagpdb portal.
+Go to *Fun* dropdown and choose *Soundboard*:
+![](https://githubpics.blob.core.windows.net/wowdiscord/sb.jpg)
 
+**Please keep the names for sounds as below:**
+![](https://githubpics.blob.core.windows.net/wowdiscord/sounds.jpg)
+
+## Changing Cooldown and Ability effect length:
+You can see two variables named 
+
+```$cooldown```
+```$abilityTime```
+You can set preffered duration in seconds for each ability. By default, the abilites have:
+1. Cooldown 300s, Ability Effect Length 30s: Bubble, Banish
+2. Cooldown 300s, Ability Effect Length 15s: Trap, Polymorph
+2. Cooldown 300s: Purify
+2. Cooldown 30s: Taunt
+Stealth doesn't have a cooldown. 
