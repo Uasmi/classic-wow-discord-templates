@@ -64,12 +64,14 @@ Set *Stealth* role color to ```#2C2F33``` so it will look like this: <img src="h
 Now you'll have to add commands to your server.
 Make sure you selected your server at Yagpdb portal (you can see it on top right corner)
 To do that, jump to yagpdb portal, and in *Core* drop-down choose *Custom Commands*:
+
 ![](https://githubpics.blob.core.windows.net/wowdiscord/cc.jpg)
 
 ## Adding Go files
-Start to add commands by selecting each .go file from this repository, and copying code to yagpdb portal (Press on *.go* file, Copy the code and Paste to custom command). Don't forget to set the command to *Require at least one of the roles in the following lists* and to appropriate Class (ex., banish = Warlock)
+Start to add commands by selecting each .go file from this repository, and copying code to yagpdb portal (Press on *.go* file, Copy the code and Paste to custom command). Don't forget to set the command to *Require at least one of the roles in the following lists* and assign appropriate Class (ex., banish = Warlock)
 
 Here's and example:
+
 ![](https://githubpics.blob.core.windows.net/wowdiscord/addingCC.gif)
 
 Repeat the procces for (keep the command triggers same as file names):
@@ -77,17 +79,19 @@ Repeat the procces for (keep the command triggers same as file names):
 2. bubble - Paladin
 3. polymorph - Mage
 4. purify - Priest
-5. regexTrapTracker - **this one is important, see below**
-6. rolemanager - keep role fields as **None**
-7. stealth - Rogue
-8. trap - Hunter
-9. unstealth - Rogue
-10. taunt - Warrior
+5. rolemanager - keep role fields as **None**
+6. stealth - Rogue
+7. trap - Hunter
+8. unstealth - Rogue
+9. taunt - Warrior
+10. regexTrapTracker - **this one is important, see below**
 
 The only important file is a trapRegexTracker, which is using Regex. You need to change the **Trigger Type** to regex, and set **Trigger** to .*: 
+
 ![](https://githubpics.blob.core.windows.net/wowdiscord/regex.jpg)
 
 Create a separate text channel for druids called Teldrassil:
+
 ![](https://githubpics.blob.core.windows.net/wowdiscord/teldrassil.jpg)
 
 ## Adding sounds
@@ -97,6 +101,7 @@ Go to *Fun* dropdown and choose *Soundboard*:
 ![](https://githubpics.blob.core.windows.net/wowdiscord/sb.jpg)
 
 **Please keep the names for sounds as below:**
+
 ![](https://githubpics.blob.core.windows.net/wowdiscord/sounds.jpg)
 
 ## Changing Cooldown and Ability effect length:
@@ -111,5 +116,7 @@ You can set preffered duration in seconds for each ability. By default, the abil
 2. Cooldown 30s: Taunt
 Stealth doesn't have a cooldown. 
 
+
+## Have fun!
 That's it!
 Feel free to ask questions at Issues. :)
