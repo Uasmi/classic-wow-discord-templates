@@ -108,9 +108,8 @@ Go to *Fun* dropdown and choose *Soundboard*:
 
 ## Changing Cooldown and Ability effect length:
 You can see two variables named 
-
 ```$cooldown```
-```$abilityTime```
+```$abilityTime``` at each Command.
 You can set preffered duration in seconds for each ability. By default, the abilites have:
 1. Cooldown 300s, Ability Effect Length 30s: Bubble, Banish
 2. Cooldown 300s, Ability Effect Length 15s: Trap, Polymorph
