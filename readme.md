@@ -93,6 +93,7 @@ Create a separate text channel for druids called Teldrassil:
 ## Adding sounds
 Sounds are also included, you can get them at sounds folder. Download them and then Upload to Yagpdb portal.
 Go to *Fun* dropdown and choose *Soundboard*:
+
 ![](https://githubpics.blob.core.windows.net/wowdiscord/sb.jpg)
 
 **Please keep the names for sounds as below:**
@@ -109,3 +110,6 @@ You can set preffered duration in seconds for each ability. By default, the abil
 2. Cooldown 300s: Purify
 2. Cooldown 30s: Taunt
 Stealth doesn't have a cooldown. 
+
+That's it!
+Feel free to ask questions at Issues. :)
