@@ -46,12 +46,20 @@ This one is a surprise. To trigger the command just type *-taunt* and see what w
 ###### Make sure you joined the voice channel!
 
 ## Requirements and prework:
-You'll need to do the following steps to make this work:
-1. Setup a discord server
-2. Add YAGPDB to your server: https://yagpdb.xyz
-3. Make custom roles such as:
-//add pic here
+Now let's jump into setting things up.
 
+You'll need to do the following steps to make this work:
+#### 1. Setup a discord server: https://discordapp.com/
+#### 2. Add YAGPDB to your server: https://yagpdb.xyz
+#### 3. Make custom roles such as below:
+<img src="https://githubpics.blob.core.windows.net/wowdiscord/properRoles.jpg" width="400" height="450" />
+
+You can get hex code colours for classes here: https://wow.gamepedia.com/Class_colors
+
+Set *Sheep, Frozen and Banished* roles to read-only in settings of the role
+Set *Stealth* role color to ```#2C2F33``` so it will look like this: <img src="https://githubpics.blob.core.windows.net/wowdiscord/stealth.jpg" width="100" height="25" />
+
+#### 4. Setup a separate channel where you can let people choose a Class
 ## Setting up:
 Here will be steps to add commands to your server
 There are several 
