@@ -17,7 +17,7 @@ Adding this commands to your Discord server will add class specific features! Ea
 ###### Bonus: Rotten Ghoul - if someone is acting bad, promote him to Rotten Ghoul and send him to Eastern Plaguelends
 
 ## Abilities explained
-###### Disclaimer: though we really wanted to create lot's of cool abilities, there are some limitations in Discord that we can't surpass (or possibly don't know how). If you have a suggestion just create and Issue on this GitHub and we'll take a look if it's possible
+###### Disclaimer: though we really wanted to create lot's of cool abilities, there are some limitations in Discord that we can't surpass (or possibly don't know how). If you have a suggestion just create and Issue on this Repo and we'll take a look if it's possible
 #### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/91/Spell_shadow_cripple.png/revision/latest?cb=20060930190414)  Banish
 *-banish @nickname* to send the target to the other realm! (text channel...) Other channels are hidden. While target is banished, it is impossible to Dispel, Polymorph or Bubble the target.
 #### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/92/Spell_shaman_improvedreincarnation.png/revision/latest?cb=20100901165909)  Reincarnation
