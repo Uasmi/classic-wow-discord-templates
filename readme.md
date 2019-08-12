@@ -38,12 +38,12 @@ We all like to turn people into sheeps... Baah :sheep:
 *-trap* to set a freezing trap. 
 The next person who'll type in chat will get into Freezing Trap. You'll recieve a DM that the trap was set. 
 ###### Tss, don't tell anyone...
-#### <img src="https://wow.zamimg.com/uploads/screenshots/normal/819054-teldrassil-in-the-moonlight.jpg" width="80" height="45" /> Teldrassil
+#### <img src="https://wow.zamimg.com/uploads/screenshots/normal/114418-teldrassil-teldrassil-concept-art-not-a-stump.jpg" width="80" height="45" /> Teldrassil
 Separate text channel for Druids
 ###### Come on, you have too many cool things in the game, separate Teldrassil for you is not that bad!
-#### Taunt
+#### ![](https://wow.zamimg.com/images/wow/icons/large/spell_nature_reincarnation.jpg) Taunt
 This one is a surprise. To trigger the command just type *-taunt* and see what will happen.
-###### Make sure you joined the voice channel
+###### Make sure you joined the voice channel!
 
 ## Requirements and prework:
 You'll need to do the following steps to make this work:
