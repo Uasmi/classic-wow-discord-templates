@@ -61,9 +61,29 @@ Set *Stealth* role color to ```#2C2F33``` so it will look like this: <img src="h
 
 #### 4. Setup a separate channel where you can let people choose a Class
 ## Setting up:
-Here will be steps to add commands to your server
-There are several 
+Now you'll have to add commands to your server.
+Make sure you selected your server at Yagpdb portal (you can see it on top right corner)
+To do that, jump to yagpdb portal, and in *Core* drop-down choose *Custom Commands*:
+![](https://githubpics.blob.core.windows.net/wowdiscord/cc.jpg)
 
-Login to YAGPDB portal (through discord authorization) and choose your server. Then on the left you'll see Core dropdown, press it and then choose custom commands. After doing that you need to copy the code from *.go* files at this repository (CTRL-C/CTRL-V will work fine) and paste it to the portal one by one. 
-The only important file is a trapRegexTracker, which is using Regex. You need to change the trigger to regex, and set command to .*
+## Adding Go files
+Start to add commands by selecting each .go file from this repository, and copying code to yagpdb portal (Press on *.go* file, Copy the code and Paste to custom command). Don't forget to set the command to *Require at least one of the roles in the following lists* and to appropriate Class (ex., banish = Warlock)
+
 Here's and example:
+![](https://githubpics.blob.core.windows.net/wowdiscord/addingCC.gif)
+
+Repeat the procces for (keep the command triggers same as file names):
+1. banish - Warlock
+2. bubble - Paladin
+3. polymorph - Mage
+4. purify - Priest
+5. regexTrapTracker - **this one is important, see below**
+6. rolemanager - keep role fields as **None**
+7. stealth - Rogue
+8. trap - Hunter
+9. unstealth - Rogue
+
+The only important file is a trapRegexTracker, which is using Regex. You need to change the trigger to regex, and set command to .*: 
+
+
+
