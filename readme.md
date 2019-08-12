@@ -30,15 +30,15 @@ The most selfless people recieve ability to remove control spells. Feel free to 
 ###### Don't tell me you're a shadow priest, we all know this doesn't work.
 #### ![](https://vignette.wikia.nocookie.net/wowwiki/images/1/18/Spell_holy_divineshield.png/revision/latest?cb=20111101153930) Bubble
 Do I need to explain this? Use *-bubble @nickname* to put a Bubble on ~~someone~~ yourself
-#### ![](https://gamepedia.cursecdn.com/wowpedia/thumb/d/de/Spell_nature_polymorph.png/32px-Spell_nature_polymorph.png?version=e3edeeee4ea14468137a76da5b125a48) Polymorph
+#### ![](https://wow.zamimg.com/images/wow/icons/large/spell_nature_polymorph.jpg) Polymorph
 *-polymorph @nickname*
 
 We all like to turn people into sheeps... Baah :sheep:
-#### Freezing Trap
+#### ![](https://wow.zamimg.com/images/wow/icons/large/spell_frost_chainsofice.jpg) Freezing Trap
 *-trap* to set a freezing trap. 
 The next person who'll type in chat will get into Freezing Trap. You'll recieve a DM that the trap was set. 
 ###### Tss, don't tell anyone...
-#### Teldrassil
+#### <img src="https://wow.zamimg.com/uploads/screenshots/normal/819054-teldrassil-in-the-moonlight.jpg" width="80" height="45" /> Teldrassil
 Separate text channel for Druids
 ###### Come on, you have too many cool things in the game, separate Teldrassil for you is not that bad!
 #### Taunt
