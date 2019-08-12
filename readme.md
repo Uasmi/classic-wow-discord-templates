@@ -18,19 +18,19 @@ Bonus: Rotten Ghoul
 
 ## Abilities explained
 ###### Disclaimer: though we really wanted to create lot's of cool abilities, there are some limitations in Discord that we can't surpass (or possibly don't know how). If you have a suggestion just create and Issue on this GitHub and we'll take a look if it's possible
-#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/91/Spell_shadow_cripple.png/revision/latest?cb=20060930190414) Banish
+#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/91/Spell_shadow_cripple.png/revision/latest?cb=20060930190414)  Banish
 *-banish @nickname* to send the target to the other realm! (text channel...) Other channels are hidden. While target is banished, it is impossible to Dispel, Polymorph or Bubble the target.
-#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/92/Spell_shaman_improvedreincarnation.png/revision/latest?cb=20100901165909) Reincarnation
+#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/92/Spell_shaman_improvedreincarnation.png/revision/latest?cb=20100901165909)  Reincarnation
 Shaman is able to Reincarnate after control spells was used on him. This will trigger the cooldown of the caster, but will not affect the Shaman himself (works on Polymorph, Freezing Trap, Banish)
-#### Stealth
+#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/f/f8/Ability_stealth.png/revision/latest?cb=20051006101655) Stealth
 *-stealth* to dissapear and *-unstealth* to appear again! 
 ###### P.S. Those filthy casters can't get you but be careful of freezing traps!
-#### Dispel
-The most selfless people recieve ability to remove control spells. Feel free to help your friend, and use *-dispel @nickname* to remove control spells.
+#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/5/5e/Spell_holy_dispelmagic.png/revision/latest?cb=20060930054627) Purify
+The most selfless people recieve ability to remove control spells. Feel free to help your friend, and use *-purify @nickname* to remove control spells.
 ###### Don't tell me you're a shadow priest, we all know this doesn't work.
-#### Bubble
+#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/1/18/Spell_holy_divineshield.png/revision/latest?cb=20111101153930) Bubble
 Do I need to explain this? Use *-bubble @nickname* to put a Bubble on ~~someone~~ yourself
-#### Polymorph
+#### ![](https://gamepedia.cursecdn.com/wowpedia/thumb/d/de/Spell_nature_polymorph.png/32px-Spell_nature_polymorph.png?version=e3edeeee4ea14468137a76da5b125a48) Polymorph
 *-polymorph @nickname*
 
 We all like to turn people into sheeps... Baah :sheep:
