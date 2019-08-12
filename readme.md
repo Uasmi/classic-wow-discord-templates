@@ -18,9 +18,9 @@ Bonus: Rotten Ghoul
 
 ## Abilities explained
 ###### Disclaimer: though we really wanted to create lot's of cool abilities, there are some limitations in Discord that we can't surpass (or possibly don't know how). If you have a suggestion just create and Issue on this GitHub and we'll take a look if it's possible
-#### Banish
+#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/91/Spell_shadow_cripple.png/revision/latest?cb=20060930190414) Banish
 *-banish @nickname* to send the target to the other realm! (text channel...) Other channels are hidden. While target is banished, it is impossible to Dispel, Polymorph or Bubble the target.
-#### Reincarnation
+#### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/92/Spell_shaman_improvedreincarnation.png/revision/latest?cb=20100901165909) Reincarnation
 Shaman is able to Reincarnate after control spells was used on him. This will trigger the cooldown of the caster, but will not affect the Shaman himself (works on Polymorph, Freezing Trap, Banish)
 #### Stealth
 *-stealth* to dissapear and *-unstealth* to appear again! 
