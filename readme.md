@@ -14,7 +14,7 @@ Adding this commands to your Discord server will add class specific features! Ea
 8. ![](https://vignette.wikia.nocookie.net/wowwiki/images/6/6b/Druid_Icon.gif/revision/latest?cb=20070911025603)Druid - Teldrassil
 9. ![](https://vignette.wikia.nocookie.net/wowwiki/images/b/bc/Warrior_Icon.gif/revision/latest?cb=20070911030206)Warrior - Taunt
 
-###### Bonus: Rotten Ghoul - if someone is acting bad, promote him to Rotten Ghoul and send him to Eastern Plaguelends
+###### Bonus: Rotten Ghoul - if someone is acting bad, promote him to Rotten Ghoul and send him to Eastern Plaguelands
 
 ## Abilities explained
 ###### Disclaimer: though we really wanted to create lot's of cool abilities, there are some limitations in Discord that we can't surpass (or possibly don't know how). If you have a suggestion just create and Issue on this Repo and we'll take a look if it's possible
