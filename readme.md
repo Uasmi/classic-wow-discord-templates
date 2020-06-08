@@ -115,6 +115,7 @@ You can set preffered duration in seconds for each ability. By default, the abil
 2. Cooldown 300s, Ability Effect Length 15s: Trap, Polymorph
 2. Cooldown 300s: Purify
 2. Cooldown 30s: Taunt
+
 Stealth doesn't have a cooldown. 
 
 
