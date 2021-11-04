@@ -52,12 +52,12 @@ You'll need to do the following steps to make this work:
 #### 1. Setup a discord server: https://discordapp.com/
 #### 2. Add YAGPDB to your server: https://yagpdb.xyz
 #### 3. Make custom roles such as below:
-<img src="https://githubpics.blob.core.windows.net/wowdiscord/properRoles.jpg" width="400" height="450" />
+<img src="https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/properRoles.jpg?raw=true" width="400" height="450" />
 
 You can get hex code colours for classes here: https://wow.gamepedia.com/Class_colors
 
 Set *Sheep, Frozen and Banished* roles to read-only in settings of the role
-Set *Stealth* role color to ```#2C2F33``` so it will look like this: <img src="https://githubpics.blob.core.windows.net/wowdiscord/stealth.jpg" width="100" height="25" />
+Set *Stealth* role color to ```#2C2F33``` so it will look like this: <img src="https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/stealth.jpg?raw=true" width="100" height="25" />
 
 #### 4. Setup a separate channel where you can let people choose a Class (self-assignable roles):
 Follow this cool youtube video to do that:
@@ -67,14 +67,14 @@ Now you'll have to add commands to your server.
 Make sure you selected your server at Yagpdb portal (you can see it on top right corner)
 To do that, jump to yagpdb portal, and in *Core* drop-down choose *Custom Commands*:
 
-![](https://githubpics.blob.core.windows.net/wowdiscord/cc.jpg)
+![](https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/cc.jpg?raw=true)
 
 ## Adding Go files
 Start to add commands by selecting each .go file from this repository, and copying code to yagpdb portal (Press on *.go* file, Copy the code and Paste to custom command). Don't forget to set the command to *Require at least one of the roles in the following lists* and assign appropriate Class (ex., banish = Warlock)
 
 Here's and example:
 
-![](https://githubpics.blob.core.windows.net/wowdiscord/addingCC.gif)
+![](https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/addingCC.gif?raw=true)
 
 Repeat the procces for (keep the command triggers same as file names):
 1. banish - Warlock
@@ -90,21 +90,21 @@ Repeat the procces for (keep the command triggers same as file names):
 
 The only important file is a trapRegexTracker, which is using Regex. You need to change the **Trigger Type** to regex, and set **Trigger** to .*: 
 
-![](https://githubpics.blob.core.windows.net/wowdiscord/regex.jpg)
+![](https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/regex.jpg?raw=true)
 
 Create a separate text channel for druids called Teldrassil:
 
-![](https://githubpics.blob.core.windows.net/wowdiscord/teldrassil.jpg)
+![](https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/teldrassil.jpg?raw=true)
 
 ## Adding sounds
 Sounds are also included, you can get them at sounds folder. Download them and then Upload to Yagpdb portal.
 Go to *Fun* dropdown and choose *Soundboard*:
 
-![](https://githubpics.blob.core.windows.net/wowdiscord/sb.jpg)
+![](https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/sb.jpg?raw=true)
 
 **Please keep the names for sounds as below:**
 
-![](https://githubpics.blob.core.windows.net/wowdiscord/sounds.jpg)
+![](https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/sounds.jpg?raw=true)
 
 ## Changing Cooldown and Ability effect length:
 You can see two variables named 
