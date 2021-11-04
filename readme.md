@@ -1,8 +1,12 @@
 # WoW Classic - Discord custom commands
-Hello and welcome to this repo, which contains custom commands for your discord server, which you can freely implement and have fun!
+###### Do you want your friends to go *baah*?? (I do)
+
+Well, you're in the right place now! While we're all waiting for the launch of the World of Warcraft Classic Servers, let's have some fun and setup custom commands for your guild/community discord server and start sheeping each other for eternity!
+
+This repository contains all necessary files and instructions to setup custom commands for WoW classes at your discord server. Just follow along and you'll see all the included abilities and how they work.
 
 ## Classes and Interactions:
-Adding this commands to your Discord server will add class specific features! Each person on your server will be able to choose a class and use it's ability:
+Adding these commands to your Discord server will add class specific features! Each person on your server will be able to choose a class and use it's ability:
 
 1. ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/94/Warlock_Icon.gif/revision/latest?cb=20070911030126)Warlock - Banish
 2. ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/98/Shaman_Icon.gif/revision/latest?cb=20070911030053)Shaman - Reincarnation 
@@ -17,7 +21,7 @@ Adding this commands to your Discord server will add class specific features! Ea
 ###### Bonus: Rotten Ghoul - if someone is acting bad, promote him to Rotten Ghoul and send him to Eastern Plaguelands
 
 ## Abilities explained
-###### Disclaimer: though we really wanted to create lot's of cool abilities, there are some limitations in Discord that we can't surpass (or possibly don't know how). If you have a suggestion just create and Issue on this Repo and we'll take a look if it's possible
+###### Disclaimer: though I really wanted to create lot's of cool abilities, there are some limitations in Discord that I can't surpass (or possibly don't know how). If you have a suggestion just create and Issue on this Repo and I'll take a look if it's possible
 #### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/91/Spell_shadow_cripple.png/revision/latest?cb=20060930190414)  Banish
 *-banish @nickname* to send the target to the other realm! (text channel...) Other channels are hidden. While target is banished, it is impossible to Dispel, Polymorph or Bubble the target.
 #### ![](https://vignette.wikia.nocookie.net/wowwiki/images/9/92/Spell_shaman_improvedreincarnation.png/revision/latest?cb=20100901165909)  Reincarnation
@@ -42,7 +46,7 @@ The next person who'll type in chat will get into Freezing Trap. You'll recieve 
 Separate text channel for Druids
 ###### Come on, Druids. You have too many cool things in the game! Separate Teldrassil is not that bad!
 #### ![](https://wow.zamimg.com/images/wow/icons/large/spell_nature_reincarnation.jpg) Taunt
-This one is a surprise. To trigger the command just type *-taunt* and see what will happen.
+This one is a surprise. To trigger a command just type *-taunt* and see what will happen.
 ###### Make sure you joined the voice channel!
 
 ## Requirements and prework:
@@ -56,7 +60,8 @@ You'll need to do the following steps to make this work:
 
 You can get hex code colours for classes here: https://wow.gamepedia.com/Class_colors
 
-Set *Sheep, Frozen and Banished* roles to read-only in settings of the role
+Set *Sheep, Frozen and Banished* roles to read-only in settings of the role.
+
 Set *Stealth* role color to ```#2C2F33``` so it will look like this: <img src="https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/stealth.jpg?raw=true" width="100" height="25" />
 
 #### 4. Setup a separate channel where you can let people choose a Class (self-assignable roles):
@@ -72,11 +77,11 @@ To do that, jump to yagpdb portal, and in *Core* drop-down choose *Custom Comman
 ## Adding Go files
 Start to add commands by selecting each .go file from this repository, and copying code to yagpdb portal (Press on *.go* file, Copy the code and Paste to custom command). Don't forget to set the command to *Require at least one of the roles in the following lists* and assign appropriate Class (ex., banish = Warlock)
 
-Here's and example:
+Here's an example:
 
 ![](https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/addingCC.gif?raw=true)
 
-Repeat the procces for (keep the command triggers same as file names):
+Repeat the procces for these files (keep the command triggers same as file names):
 1. banish - Warlock
 2. bubble - Paladin
 3. polymorph - Mage
@@ -88,7 +93,7 @@ Repeat the procces for (keep the command triggers same as file names):
 9. taunt - Warrior
 10. regexTrapTracker - **this one is important, see below**
 
-The only important file is a trapRegexTracker, which is using Regex. You need to change the **Trigger Type** to regex, and set **Trigger** to .*: 
+The file named trapRegexTracker is using Regex. You need to change the **Trigger Type** to regex, and set **Trigger** to .*: 
 
 ![](https://github.com/Uasmi/classic-wow-discord-templates/blob/master/pics/regex.jpg?raw=true)
 
